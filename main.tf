@@ -22,6 +22,6 @@ resource "aws_instance" "yourec2" {
 
  variable "access_key"{}
  variable "secret_key"{}
- variable "region_name"
+ variable "region_name"{
    default = "ap-south-1"
 }
